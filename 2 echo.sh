@@ -8,5 +8,5 @@ echo hello world
 #COLm - color code -Red(31m),Green(32m),yellow(33m),Blue(34m),Magenta(35m),cyan(36m)
 #\e[0m - Disable the colour(once we enable the colour we have to disable that,else colour follows to next lines)
 
-echo -e '\e[31mRED COLOR'
+echo -e '\e[31mRED COLOR\e[0m'
 echo normal text
